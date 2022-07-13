@@ -107,9 +107,9 @@ header .follow a:hover{
 }
 
 header .image img{
-  width: 40px;
-  height: 40px;
-  padding: 3px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
 }
  
 
@@ -218,6 +218,16 @@ header .image img{
     padding-bottom: 2rem;
 } 
 
+
+ .about .row-1 .content{
+    flex:1 1 50rem;
+}
+
+.about .row-1 .content h3{
+    color:#666;
+    font-size: 1.7rem;
+    padding:.5rem 0;
+}
  /* .about .row-1 .image{
     flex:1 1 25rem;
 }
@@ -230,16 +240,6 @@ header .image img{
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }  */
-
- .about .row-1 .content{
-    flex:1 1 50rem;
-}
-
-.about .row-1 .content h3{
-    color:#666;
-    font-size: 1.7rem;
-    padding:.5rem 0;
-}
 
 /* 
 .about .row-1 .content .box-container{
@@ -407,6 +407,40 @@ header .image img{
 } */
 
 
+
+
+
+
+
+.organizers .row-1 .content h3{
+    color:#666;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+.organizers .row-1 .content p{
+    color:#666;
+    font-size: 20px;
+    padding:.5rem 0;
+}
+
+
+
+
+
+
+
+
+.research .row-1 .content h3{
+    color:#666;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.research .row-1 .content p{
+    color:#666;
+    font-size: 20px;
+    padding:.5rem 0;
+}
 
 .honors .box-container{
     display: flex;
